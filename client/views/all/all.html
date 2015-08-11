@@ -1,0 +1,19 @@
+<div class="products">
+	<div>
+		<input type="button" value="New" ng-click="showNewForm()">
+	</div>
+	<br/>
+	<div ng-show="!products || !products.length">
+		<i>No Products</i>
+	</div>
+	<div ng-show="products.length">
+		<div ng-repeat="product in products" ng-click="showProduct(product._id)" class="product-item">
+			<span class="product-item-desc">
+				<b>{{product.name}}</b> <i>{{product.desc}}</i> ${{product.price}}
+			</span>
+			<span class="product-item-comments">
+				<i>{{product.comments.length}} Comments</i>
+			</span>
+		</div>
+	</div>
+</div>

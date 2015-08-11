@@ -1,0 +1,13 @@
+<div style="text-align: center;">
+	<a ui-sref="all">Back</a>
+	<div><b>{{product.name}}</b> <i>{{product.desc}}</i> ${{product.price}}</div>
+	<br/>
+	<i class="product-item-comments">{{product.comments.length}} comments</i>
+	<br/>
+	<div>
+		<textarea ng-model="comment" cols="30" rows="3"></textarea>
+		<br/>
+		<input type="button" value="Send" ng-click="addComment()">
+	</div>
+	<div ng-repeat="comment in product.comments track by $index" >{{comment.text}}</div>
+</div>

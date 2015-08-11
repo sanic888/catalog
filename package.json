@@ -1,0 +1,28 @@
+{
+  "name": "catalog",
+  "version": "1.0.0",
+  "description": "h",
+  "main": "server/app.js",
+  "dependencies": {
+    "body-parser": "^1.10.1",
+    "express": "^4.11.0",
+    "mongodb": "~1.4.38",
+    "mongoskin": "~1.4.13",
+    "setty": "~1.0.2",
+    "method-override": "~2.3.4",
+    "mongoose": "~4.0.7",
+    "q": "~1.4.1",
+    "ejs": "~2.3.3",
+    "express-validator": "~2.14.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanic888/catalog.git"
+  },
+  "author": "Alex"
+}

@@ -1,0 +1,20 @@
+ <!DOCTYPE html>
+<html ng-app="catalog">
+<head>
+    <title>Catalog</title>
+    <link rel="stylesheet" type="text/css" href="/styles/common.css">
+</head>
+    <body ng-controller="AppCtrl">
+        <div ui-view></div>
+
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script type="text/javascript" src="/app.js"></script>
+        <script type="text/javascript" src="/services/httpModel.js"></script>
+        <script type="text/javascript" src="/services/api.js"></script>
+
+        <script type="text/javascript" src="/views/all/all.js"></script>
+        <script type="text/javascript" src="/views/new/new.js"></script>
+        <script type="text/javascript" src="/views/view/view.js"></script>
+    </body>
+</html>

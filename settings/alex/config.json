@@ -1,0 +1,5 @@
+{
+  "mongo": {
+    "stage": "mongodb://localhost:27017/dev-catalog-stage"
+  }
+}

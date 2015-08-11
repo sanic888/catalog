@@ -1,0 +1,7 @@
+{
+  "port": 3000,
+  "mongo": {
+    "stage": "mongodb://localhost:27017/dev-catalog-stage"
+  },
+  "rootUrl": "http://localhost:3000"
+}

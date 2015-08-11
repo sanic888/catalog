@@ -1,0 +1,26 @@
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+span, div {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.product-item:hover {
+    cursor: pointer;
+    background-color: rgb(236, 234, 234);
+}
+
+.products {
+    text-align: center;
+    width: 50%; 
+    margin-left: 25%;
+}
+
+.product-item-comments {
+    font-size: 12px;
+    margin-left: 20px;
+}
